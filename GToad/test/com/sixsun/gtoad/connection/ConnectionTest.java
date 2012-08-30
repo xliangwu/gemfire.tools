@@ -1,6 +1,5 @@
 package com.sixsun.gtoad.connection;
 
-import static org.junit.Assert.fail;
 import junit.framework.Assert;
 
 import org.junit.Test;
@@ -11,7 +10,6 @@ public class ConnectionTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
 	}
 
 	@Test
