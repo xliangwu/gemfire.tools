@@ -1,17 +1,7 @@
 package com.sixsun.gtoad.exception;
 
-public class ConnectionException extends AbstractException{
+public abstract class ConnectionException extends AbstractException{
 
-	@Override
-	public int getErrorCode() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public String getErrorDescription() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	private static final long serialVersionUID = 6284695564097914313L;
 	
 }

@@ -15,4 +15,24 @@ public abstract class AbstractException extends Exception{
 	 * @return error description
 	 */
 	public abstract String getErrorDescription();
+	
+	
+	public AbstractException(){
+		super();
+	}
+	
+	public AbstractException(String message){
+		super(message);
+	}
+	
+	public AbstractException(String message,Throwable cause){
+		super(message,cause);
+	}
+
+	@Override
+	public String toString() {
+		return "Exception [getErrorCode()=" + getErrorCode() + ", getErrorDescription()=" + getErrorDescription() + "]";
+	}
+	
+	
 }
