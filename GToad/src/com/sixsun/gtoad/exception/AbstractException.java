@@ -1,4 +1,4 @@
-package com.citi.gtoad.exception;
+package com.sixsun.gtoad.exception;
 
 public abstract class AbstractException extends Exception{
 

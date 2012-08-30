@@ -1,4 +1,4 @@
-package com.citi.gtoad.domain;
+package com.sixsun.gtoad.domain;
 
 import java.io.Serializable;
 
